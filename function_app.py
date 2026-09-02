@@ -1,6 +1,5 @@
 import json
-import pymssql
-import azure.fuctions as func
+import azure.functions as func
 
 app = func.FunctionApp(http_auth_level=func.Authlevel.ANONYMOUS)
 
