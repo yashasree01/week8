@@ -1,3 +1,4 @@
+import json
 import azure.fuctions as func
 
 app = func.FunctionApp(http_auth_level=func.Authlevel.ANONYMOUS)
